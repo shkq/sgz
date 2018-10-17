@@ -1,0 +1,33 @@
+{
+	"serverCfgList":[
+		"https://www.queentengame.com:8099/weixin_xiaoyouxi/sanguozhi10M/client/serverCfg.json",
+		"https://raw.githubusercontent.com/shkq/sgz/master/serverCfg_nei.json",
+		""
+	]
+	
+	,"serverIp":"192.168.0.100:9840"
+	
+	,"SocketG":{
+		"m_cfg_http_head": "http://",
+		"m_cfg_socket_head": "ws://",
+		"m_serverIp_login":"192.168.0.100:9900",
+		"m_serverIp":"192.168.0.100:9840",
+		"m_serverIp_http":"192.168.0.100:9090",
+		"g_data_ip":"http://192.168.0.100:9888",
+		"m_pipei_ip":"www.queentengame.com:9600"
+
+		,"g_yaoqingIp":"http://"
+		,"g_str_wx_state":"none"
+		,"g_data_flag_login_showLoginLayer":true
+		,"g_data_flag_login_wx_only":true
+		,"g_update_each_url_time":5000
+		,"g_update_flag_fail_force":false
+		,"platform":"default"
+		,"packageName":"papa"
+	}
+	
+	,"packageUrl":[
+	]
+
+	,"evalStr":"cc.log = cc.error;cc.error('cc.sys.isNative',cc.sys.isNative);cc.error('cc.sys.os',cc.sys.os);cc.error('cc.sys.isBrowser',cc.sys.isBrowser);cc.error('CC_JSB',CC_JSB);"
+}
